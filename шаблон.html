@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="ru">
+    <title>Анкета</title>
+</head>
+<body>
+    <h1>Здравствуйте, эта анкета была создана для того, чтобы с вами познакомиться!</h1>
+    <h1>Заполните эту анкету, пожалуйста!</h1>
+    <form action="/submit" method="post">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="data_rojdenia">Когда вы родились? (введите дату и месяц)</label>
+        <input type="text" id="data_rojdenia" name="data_rojdenia"><br><br>
+        <label for="today">Какое сегодня число?</label>
+        <input type="text" id="today" name="today"><br><br>
+        <label for="favorite_color">Ваш любимый цвет:</label>
+        <input type="text" id="favorite_color" name="favorite_color"><br><br>
+        <label for="favorite_games">В какие игры вы играете?</label>
+        <input type="text" id="favorite_games" name="favorite_games"><br><br>
+        <label for="summer">Чем планируете заняться летом?</label>
+        <input type="text" id="summer" name="summer"><br><br>
+        <label for="age">Ваш возраст:</label>
+        <input type="text" id="age" name="age"><br><br>
+        <label for="about_me">Если хотите, можете рассказать о себе еще что-нибудь:</label>
+        <input type="text" id="about_me" name="about_me"><br><br>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
